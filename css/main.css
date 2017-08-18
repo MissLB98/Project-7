@@ -31,10 +31,6 @@ h1	{
 .mejs__container	{
 	margin: 0 auto;
 	display: block;
-}
-
-.mejs__container	{
-	margin: 0 auto;
 	background: #536723;
 }
 
@@ -56,7 +52,6 @@ h1	{
 
 .content	{
 	width: 100%;
-	max-width: 1000px;
 	margin: 0 auto;
 	padding: 10px;
 	text-align: justify;
@@ -64,7 +59,7 @@ h1	{
 }
 
 span[data-start="7.535"]	{
-	color: #789;
+	color: #77a;
 }
 
 span[data-start]:hover	{
@@ -93,12 +88,10 @@ footer	{
 /*media queries*/
 
 @media (min-width: 768px) {
-	body	{
-		width: 80%;
-	}
 	
 	.videoWrapper, 
-	.mejs__container	{
-		max-width: 1000px;
+	.mejs__container,
+	.content	{
+		max-width: 768px;
 	}
 }
